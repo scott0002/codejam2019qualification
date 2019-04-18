@@ -11,7 +11,7 @@ public class P3 {
 		int t=input.nextInt();
 	    for(int cnt=1; cnt<=t; cnt++)
 	    {
-	        int n=input.nextInt(),L=input.nextInt();
+	        int n=input.nextBigInteger(),L=input.nextInt();
 	        String ans="";
 	        BigInteger[] arr =new BigInteger[L];
 	        BigInteger[] num =new BigInteger[L+1];
